@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    margin-top: 75px;    
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.box-opaco {
+    background: rgba(0, 0, 0, 0.4);   
+    border: 1px solid black;
+    border-radius: 10px ;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+header {
+   margin-top: 50px ;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+}
+
+#riferimenti { 
+    color:rgb(22, 224, 32);
+    font-size: 45px;
+    font-family: quicksand;
+    margin-bottom: 10px;
+}
+
+nav {   
+    background-color: rgb(22, 224, 32);
+    margin: auto;
+    width: 80%;
+    border: 9px solid rgb(22, 224, 32);    
+}
+
+main{
+    text-align: left;
+    font-family: quicksand ;
+    margin: 2% 25% 8% 9% ;    
+    color: white;    
+}
+
+.barra-verde {
+    border: 10px solid rgb(7, 209, 91);
+    width: 50%;
+    border-radius: 3px;
+}
+
+.barra-gialla {
+    border: 10px solid rgb(233, 229, 9);    
+    width: 35%;
+    border-radius: 3px;
+}
+
+.barra-rossa {
+    border: 10px solid rgb(240, 15, 15);    
+    width: 15%;
+    border-radius: 3px;
+}
+
+@font-face {
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
